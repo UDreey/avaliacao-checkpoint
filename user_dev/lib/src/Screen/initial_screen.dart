@@ -173,7 +173,7 @@ class _InitialScreenState extends State<InitialScreen> {
                 );
               },
             ),
-            const SubscripitionSelectorWidget(),
+            const SubscriptionSelectorWidget(),
           ],
         ),
       ),

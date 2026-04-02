@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class SubscripitionSelectorWidget extends StatelessWidget {
-  const SubscripitionSelectorWidget({super.key});
+class SubscriptionSelectorWidget extends StatelessWidget {
+  const SubscriptionSelectorWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

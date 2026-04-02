@@ -10,8 +10,8 @@ class SubscripitionSelectorWidget extends StatelessWidget {
       color: Color(0xFF8FFF24),
       padding: const EdgeInsets.all(24),
       child: Column(
-        spacing: 20,
         children: [
+          const SizedBox(height: 20),
           Text(
             'Inscreva-se para ganhar  descontos!',
             textAlign: TextAlign.center,
@@ -21,6 +21,7 @@ class SubscripitionSelectorWidget extends StatelessWidget {
               fontFamily: GoogleFonts.orbitron().fontFamily,
             ),
           ),
+          const SizedBox(height: 20),
           Text(
             'Casdastre seu e-mail, receba novidades e descontos importantes antes de todo mundo!',
             textAlign: TextAlign.center,
@@ -29,8 +30,9 @@ class SubscripitionSelectorWidget extends StatelessWidget {
               fontSize: 18,
             ),
           ),
+          const SizedBox(height: 20),
           TextField(
-            keyboardType: .emailAddress,
+            keyboardType: TextInputType.emailAddress,
             decoration: InputDecoration(
               hintText: 'Digite seu melhor endereço do email',
               filled: true,
@@ -41,6 +43,7 @@ class SubscripitionSelectorWidget extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(height: 20),
           SizedBox(
             width: 200,
             height: 60,
@@ -50,7 +53,7 @@ class SubscripitionSelectorWidget extends StatelessWidget {
                 backgroundColor: Color(0xFF780BF7),
               ),
               child: Text(
-                'increver',
+                'inscrever',
                 style: TextStyle(
                   fontFamily: GoogleFonts.poppins().fontFamily,
                   fontSize: 22,
